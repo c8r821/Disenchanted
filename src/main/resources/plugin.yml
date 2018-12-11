@@ -1,0 +1,11 @@
+name: ${project.name}
+version: ${project.version}
+api-version: 1.13
+author: Haileykins
+description: Simple Plugin To Disenchant Items
+main: me.haileykins.disenchanted.Disenchanted
+
+commands:
+  dereload:
+    description: Reloads The Config
+    aliases: [disenchantreload, disreload]

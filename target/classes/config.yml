@@ -1,0 +1,149 @@
+# Use-Economy: True - Charge Players Money || False - Charge Players XP (AS LEVELS)
+# ----------------------------------------------------------------------------------------------------------------------
+# Disabled Enchants: Enchants That Can Not Be Removed At All
+# Banned Items: Items Here Will Not Be Permitted To Be Disenchanted (A good use of this would be crate keys that are enchanted)
+use-economy: true
+disabled-enchants: []
+banned-items: []
+enchantments:
+  aqua_affinity:
+    1: 10
+  bane_of_arthropods:
+    1: 10
+    2: 20
+    3: 30
+    4: 40
+    5: 50
+  blast_protection:
+    1: 10
+    2: 20
+    3: 30
+    4: 40
+  channeling:
+    1: 10
+  binding_curse:
+    1: 100
+  vanishing_curse:
+    1: 100
+  depth_strider:
+    1: 10
+    2: 20
+    3: 30
+  efficiency:
+    1: 10
+    2: 20
+    3: 30
+    4: 40
+    5: 50
+  feather_falling:
+    1: 10
+    2: 20
+    3: 30
+    4: 40
+  fire_aspect:
+    1: 10
+    2: 20
+  fire_protection:
+    1: 10
+    2: 20
+    3: 30
+    4: 40
+  flame:
+    1: 10
+  fortune:
+    1: 10
+    2: 20
+    3: 30
+  frost_walker:
+    1: 10
+    2: 20
+  impaling:
+    1: 10
+    2: 20
+    3: 30
+    4: 40
+    5: 50
+  infinity:
+    1: 10
+  knockback:
+    1: 10
+    2: 20
+  looting:
+    1: 10
+    2: 20
+    3: 30
+  loyalty:
+    1: 10
+    2: 20
+    3: 30
+  luck_of_the_sea:
+    1: 10
+    2: 20
+    3: 30
+  lure:
+    1: 10
+    2: 20
+    3: 30
+  mending:
+    1: 10
+  power:
+    1: 10
+    2: 20
+    3: 30
+    4: 40
+    5: 50
+  projectile_protection:
+    1: 10
+    2: 20
+    3: 30
+    4: 40
+  protection:
+    1: 10
+    2: 20
+    3: 30
+    4: 40
+  punch:
+    1: 10
+    2: 20
+  respiration:
+    1: 10
+    2: 20
+    3: 30
+  riptide:
+    1: 10
+    2: 20
+    3: 30
+  sharpness:
+    1: 10
+    2: 20
+    3: 30
+    4: 40
+    5: 50
+  silk_touch:
+    1: 10
+  smite:
+    1: 10
+    2: 20
+    3: 30
+    4: 40
+    5: 50
+  sweeping_edge:
+    1: 10
+    2: 20
+    3: 30
+  thorns:
+    1: 10
+    2: 20
+    3: 30
+  unbreaking:
+    1: 10
+    2: 20
+    3: 30
+prefix: '&6[&5Disenchanted&6]'
+reload-message: '&2Reloaded!'
+cant-afford-message: '&cYou Can''t Afford That!'
+no-permission-message: '&cYou Don''t Have Permission To Do This!'
+cant-disenchant-message: '&cThat Enchantment Has Been Blocked From Removal'
+no-inventory-space: "&cYou Don't Have Any Room In Your Inventory!"
+purchase-successful: "&aYou Have Successfully Bought The Selected Book!"
+banned-item: "&cThat Item Is Banned From Disenchanting!"

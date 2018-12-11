@@ -1,0 +1,6 @@
+me\haileykins\disenchanted\utils\DisenchantmentMenu.class
+me\haileykins\disenchanted\Disenchanted.class
+me\haileykins\disenchanted\listeners\InventoryCloseListener.class
+me\haileykins\disenchanted\utils\MenuUtils.class
+me\haileykins\disenchanted\listeners\PlayerInteractListener.class
+me\haileykins\disenchanted\commands\ReloadCommand.class
