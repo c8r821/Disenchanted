@@ -27,7 +27,7 @@ public class ConfigUtils {
     String cantDisenchantMsg;
     String noSpace;
     String successfulBuy;
-    String bannedItem;
+    public String bannedItem;
 
     public void loadConfig() {
         plugin.saveDefaultConfig();

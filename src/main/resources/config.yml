@@ -1,7 +1,8 @@
 # Use-Economy: True - Charge Players Money || False - Charge Players XP (AS LEVELS)
 # ----------------------------------------------------------------------------------------------------------------------
-# Disabled Enchants: Enchants That Can Not Be Removed At All
+# Disabled Enchants: Enchants That Can Not Be Removed At All, These MUST Be ALL Lowercase With Underscore For Spaces
 # Banned Items: Items Here Will Not Be Permitted To Be Disenchanted (A good use of this would be crate keys that are enchanted)
+# Banned Items MUST Be ALL uppercase! With Underscores for spaces
 use-economy: true
 disabled-enchants: []
 banned-items: []

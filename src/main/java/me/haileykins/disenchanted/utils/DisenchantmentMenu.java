@@ -95,7 +95,7 @@ public class DisenchantmentMenu implements Listener {
             return;
         }
 
-        if (cfgUtils.disabledEnchants.contains(cfgUtils.getCommonName(enchant.getName()))) {
+        if (cfgUtils.disabledEnchants.contains(cfgUtils.getCommonName(enchant.getName()).toLowerCase())) {
             player.sendMessage(cfgUtils.prefColor(cfgUtils.cantDisenchantMsg));
             return;
         }

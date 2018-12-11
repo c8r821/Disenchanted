@@ -19,6 +19,7 @@ public class ReloadCommand implements CommandExecutor {
         if (sender.hasPermission("disenchanted.reload")) {
             cfgUtils.reloadConfig();
             sender.sendMessage(cfgUtils.prefColor(cfgUtils.reloadMsg));
+            return true;
         }
 
         sender.sendMessage(cfgUtils.prefColor(cfgUtils.noPermMsg));

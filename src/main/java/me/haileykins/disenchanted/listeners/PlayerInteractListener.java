@@ -34,7 +34,7 @@ public class PlayerInteractListener implements Listener {
         }
 
         if (configUtils.bannedItems.contains(event.getItem().getType().toString())) {
-            event.getPlayer().sendMessage(configUtils.prefColor("banned-item"));
+            event.getPlayer().sendMessage(configUtils.prefColor(configUtils.bannedItem));
             return;
         }
 
@@ -43,7 +43,7 @@ public class PlayerInteractListener implements Listener {
         }
 
         if (!event.getPlayer().hasPermission("disenchanted.disenchant")) {
-            event.getPlayer().sendMessage(configUtils.prefColor("no-permission-message"));
+            event.getPlayer().sendMessage(configUtils.prefColor(configUtils.noPermMsg));
             return;
         }
 
