@@ -3,6 +3,7 @@ package me.haileykins.disenchanted;
 import me.haileykins.disenchanted.commands.ReloadCommand;
 import me.haileykins.disenchanted.listeners.InventoryCloseListener;
 import me.haileykins.disenchanted.listeners.PlayerInteractListener;
+import me.haileykins.disenchanted.listeners.UpdateListener;
 import me.haileykins.disenchanted.utils.ConfigUtils;
 import me.haileykins.disenchanted.utils.DisenchantmentMenu;
 import me.haileykins.disenchanted.utils.MenuUtils;
@@ -26,6 +27,7 @@ public class Disenchanted extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new DisenchantmentMenu(cfgUtils, menuUtils), this);
         getServer().getPluginManager().registerEvents(new PlayerInteractListener(dm, cfgUtils), this);
         getServer().getPluginManager().registerEvents(new InventoryCloseListener(), this);
+        getServer().getPluginManager().registerEvents(new UpdateListener(this, cfgUtils), this);
 
         getCommand("dereload").setExecutor(new ReloadCommand(cfgUtils));
 

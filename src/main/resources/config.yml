@@ -4,6 +4,7 @@
 # Banned Items: Items Here Will Not Be Permitted To Be Disenchanted (A good use of this would be crate keys that are enchanted)
 # Banned Items MUST Be ALL uppercase! With Underscores for spaces
 use-economy: true
+announce-updates: true
 disabled-enchants: []
 banned-items: []
 enchantments:
@@ -148,3 +149,4 @@ cant-disenchant-message: '&cThat Enchantment Has Been Blocked From Removal'
 no-inventory-space: "&cYou Don't Have Any Room In Your Inventory!"
 purchase-successful: "&aYou Have Successfully Bought The Selected Book!"
 banned-item: "&cThat Item Is Banned From Disenchanting!"
+update-message: "&cYour Plugin Is Out Of Date! Please Update At {URL}"

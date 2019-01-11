@@ -18,6 +18,7 @@ public class ConfigUtils {
     }
 
     public boolean useEconomy;
+    public boolean updaterEnabled;
     List<String> disabledEnchants;
     public List<String> bannedItems;
     private String prefix;
@@ -28,6 +29,7 @@ public class ConfigUtils {
     String noSpace;
     String successfulBuy;
     public String bannedItem;
+    public String updateMessage;
 
     public void loadConfig() {
         plugin.saveDefaultConfig();
@@ -35,6 +37,7 @@ public class ConfigUtils {
         FileConfiguration config = YamlConfiguration.loadConfiguration(file);
 
         useEconomy = config.getBoolean("use-economy");
+        updaterEnabled = config.getBoolean("announce-updates");
         disabledEnchants = config.getStringList("disabled-enchants");
         bannedItems = config.getStringList("banned-items");
         prefix = config.getString("prefix");
@@ -45,6 +48,7 @@ public class ConfigUtils {
         noSpace = config.getString("no-inventory-space");
         successfulBuy = config.getString("purchase-successful");
         bannedItem = config.getString("banned-item");
+        updateMessage = config.getString("update-message");
 
         plugin.saveConfig();
     }

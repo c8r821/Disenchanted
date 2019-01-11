@@ -1,6 +1,5 @@
 package me.haileykins.disenchanted.listeners;
 
-import me.haileykins.disenchanted.Disenchanted;
 import me.haileykins.disenchanted.utils.ConfigUtils;
 import me.haileykins.disenchanted.utils.DisenchantmentMenu;
 import org.bukkit.Material;
@@ -26,6 +25,10 @@ public class PlayerInteractListener implements Listener {
         }
 
         if (event.getClickedBlock().getType() != Material.ENCHANTING_TABLE) {
+            return;
+        }
+
+        if (event.getPlayer().isSneaking()) {
             return;
         }
 
