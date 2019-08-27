@@ -72,7 +72,7 @@ public class DisenchantmentMenu implements Listener {
             return;
         }
 
-        if (!event.getClickedInventory().getName().equalsIgnoreCase("Disenchantment Menu")) {
+        if (!event.getView().getTitle().equalsIgnoreCase("Disenchantment Menu")) {
             return;
         }
 

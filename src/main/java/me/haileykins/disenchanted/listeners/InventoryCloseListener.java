@@ -10,7 +10,7 @@ public class InventoryCloseListener implements Listener {
 
     @EventHandler
     private void onClose(InventoryCloseEvent event) {
-        if (!event.getInventory().getName().equalsIgnoreCase("Disenchantment Menu")) {
+        if (!event.getView().getTitle().equalsIgnoreCase("Disenchantment Menu")) {
             return;
         }
 
